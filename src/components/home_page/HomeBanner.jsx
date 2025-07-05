@@ -117,12 +117,12 @@ const HomeBanner = () => {
                       {text}
                     </motion.h2>
                   ))}
-                  <motion.p
+                  {/* <motion.p
                   className="mt-[-2rem]"
                   initial="hidden"
                   animate="visible"
                   variants={pVariants}
-                  >4K Sports Company is India’s leading provider for Sports Infrastructure and supply installations in Schools, Colleges, Universities, Residential layouts, Farmhouses, IT Companies, etc.</motion.p>
+                  >4K Sports Company is India’s leading provider for Sports Infrastructure and supply installations in Schools, Colleges, Universities, Residential layouts, Farmhouses, IT Companies, etc.</motion.p> */}
                 </div>
               </div>
             </div>

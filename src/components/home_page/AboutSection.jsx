@@ -98,6 +98,7 @@ const AboutSection = () => {
       <div className="about_section_bg overflow-hidden">
         <section className='wrapper overflow-hidden'>
           <div className="about_section flex flex-col justify-center">
+            <div className="about_content_box1 flex items-start justify-center flex-col gap-5">
             <motion.h2
               initial="hidden"
               whileInView="visible"
@@ -106,7 +107,6 @@ const AboutSection = () => {
             >
               About Us
             </motion.h2>
-            <div className="about_content_box1 flex items-center justify-center flex-col gap-5">
               <p>4K Sports is started with a clear mission to revolutionize the framework of sports infrastructure with multisport and multipurpose facilities. Developing next-gen sports infrastructure for every kind of sport, 4K Sports is committed to bringing a change of growth.</p>
               <p>Through constant innovation, we strive to bring sports infrastructure and accessories of top-notch quality along with a high product portfolio that you can choose from. Bringing a new range of infra that every sport requires to meet your demands of every sport ground requirements, 4K Sports is your one-stop solution for all Sports Infrastructure and Accessories. Kickstart the sport groundwork now by browsing our products.</p>
             </div>

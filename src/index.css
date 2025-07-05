@@ -759,15 +759,11 @@ nav {
   height: 100%;
 }
 
-.about_section h2 {
-  margin-top: 1rem;
-  font-size: 3rem;
-  font-family: 'light';
-}
 
 .about_content_box1 {
-  width: 30%;
+  width: 25%;
   height: 500px;
+  /* margin: 0 auto; */
   position: relative;
   color: var(--white);
   margin-top: -4.5rem;
@@ -781,11 +777,18 @@ nav {
   /* clip-path: path('M 20,0 Q 0,0 0,20 L 0,120 Q 0,100 20,100 L 120,100 Q 140,100 140,80 L 140,60 Q 140,40 160,40 L 340,40 Q 360,40 360,60 L 360,400 Q 360,420 340,420 L 20,420 Q 0,420 0,400 L 0,20 Q 0,0 20,0 Z'); */
 }
 
+.about_content_box1 h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-family: 'light';
+  text-align: left;
+}
+
 .about_content_box1 p {
   font-size: 1.2rem;
   font-family: 'light';
   line-height: 1.25rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .work_done_numbers {
