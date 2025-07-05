@@ -1873,6 +1873,11 @@ footer::after {
   width: 90%;
 }
 
+.copyright p {
+  font-family: 'light';
+}
+
+
 /*----------FOOTER-SECTION---END-----------*/
 
 /*----------HOME---PAGE---END-----------*/
