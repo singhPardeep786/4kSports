@@ -128,7 +128,7 @@ html, body {
 }
 
 .fixed_icon:hover {
-  scale: 1.05;
+  scale: 1.1;
 }
 
 .fixed_icon::after {
