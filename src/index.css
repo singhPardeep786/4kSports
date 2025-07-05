@@ -114,6 +114,7 @@ html, body {
 
 .fixed_icon {
   position: relative;
+  transition: all ease .5s;
 }
 
 .fixed_icon svg {
@@ -124,6 +125,11 @@ html, body {
   fill: var(--black);
   padding: .3rem;
   border-radius: 1rem;
+  transition: all ease .5s;
+}
+
+.fixed_icon:hover {
+  scale: 1.05;
 }
 
 .fixed_icon::after {
