@@ -9,10 +9,12 @@ import CaseStudy from './CaseStudy'
 import Testimonal from './Testimonal'
 import FAQs from './FAQs'
 import Footer from '../footer/Footer'
+import FixedIcon from './FixedIcon'
 
 const HomePage = () => {
   return (
     <>
+      <FixedIcon />
       <HomeBanner />
       <AboutSection />
       <WhyUsSection />
