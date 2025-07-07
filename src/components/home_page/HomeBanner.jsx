@@ -93,11 +93,11 @@ const HomeBanner = () => {
         }}
         speed={1200}
         className="mySwiper1"
-        // autoplay={{
-        //   delay: 2700,
-        //   disableOnInteraction: false,
-        //   pauseOnMouseEnter: true,
-        // }}
+        autoplay={{
+          delay: 2700,
+          disableOnInteraction: false,
+          // pauseOnMouseEnter: true,
+        }}
         loop={true}
       >
         {bannerSlides.map((slide, idx) => (
@@ -133,7 +133,7 @@ const HomeBanner = () => {
         <div className="custom-swiper-pagination"></div>
       </Swiper>
     </div>
-    <section className="wrapper banner_bottom"></section>
+    {/* <section className="wrapper banner_bottom"></section> */}
     </>
   );
 };

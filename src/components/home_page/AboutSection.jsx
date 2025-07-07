@@ -97,6 +97,7 @@ const AboutSection = () => {
     <>
       <div className="about_section_bg overflow-hidden">
         <section className='wrapper overflow-hidden'>
+        <section className=" banner_bottom" style={{margin:"0 0 2rem 0"}}></section>
           <div className="about_section flex flex-col justify-center">
             <div className="about_content_box1 flex items-start justify-center flex-col gap-5">
             <motion.h2
@@ -112,17 +113,19 @@ const AboutSection = () => {
             </div>
           </div>
       {/* Responsive fix: remove 'contents' class and add flex-col for mobile, flex-row for md+ */}
-      <div
-        className="work_done_numbers flex flex-col sm:flex-row flex-wrap justify-center sm:justify-evenly gap-8 sm:gap-10 md:gap-12 overflow-hidden relative"
-        ref={counterRef}
-      >
-        <Counter className='counter' end={250} suffix="k" label="Hours of Work" startCount={inView} duration={2} />
-        <Counter className='counter' end={136} suffix="+" label="Projects Done" startCount={inView} duration={2} />
-        <Counter className='counter' end={100} suffix="%" label="Client Satisfaction" startCount={inView} duration={2} />
+      <div className="work_done_numbers_box realtive xl:absolute">
+        <div
+          className="work_done_numbers flex flex-col sm:flex-row flex-wrap justify-center sm:justify-evenly gap-8 sm:gap-10 md:gap-12 overflow-hidden relative"
+          ref={counterRef}
+        >
+          <Counter className='counter' end={250} suffix="k" label="Hours of Work" startCount={inView} duration={2} />
+          <Counter className='counter' end={136} suffix="+" label="Projects Done" startCount={inView} duration={2} />
+          <Counter className='counter' end={100} suffix="%" label="Client Satisfaction" startCount={inView} duration={2} />
+        </div>
       </div>
+      <div className="wrapper about_section_wrapper" style={{zIndex:"9", position:"absolute", bottom: 0, width:"95%"}}></div>
         </section>
       </div>
-      <div className="wrapper about_section_wrapper"></div>
     </>
   )
 }

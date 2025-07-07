@@ -499,7 +499,10 @@ nav {
   /* width: 100%;
   height: 95vh;
   overflow: hidden; */
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
 }
 
 .banner_bottom {
@@ -757,15 +760,17 @@ nav {
 }
 
 .about_section_bg {
-  width: 100%;
-  height: 100%;
+  width: 100%;  
+  height: 70vh;
   background: url('/images/football/about_bg.png')no-repeat;
   background-size: cover;
   background-position-x: 5rem;
   /* border-top: 1px solid var(--white); */
+  border-radius: 20px;
   z-index: 2;
   position: relative;
-  margin: 1.2rem 0 2rem 0;
+  /* margin: 1.2rem 0 2rem 0; */
+  padding: 2rem 0 0 0;
 }
 
 .about_section_wrapper {
@@ -826,7 +831,7 @@ nav {
 }
 
 .about_content_box1 {
-  width: 25%;
+  width: 35%;
   height: 500px;
   position: relative;
   color: var(--white);
@@ -846,6 +851,13 @@ nav {
   font-family: 'light';
   line-height: 1.25rem;
   text-align: left;
+}
+
+.work_done_numbers_box {
+  width: 100%;
+  min-height: 150px;
+  bottom: 0;
+  left: 0;
 }
 
 .work_done_numbers {
@@ -899,6 +911,7 @@ nav {
     rgba(0, 0, 0, 0) 100%
   );
   transition: background 0.3s;
+  padding: 0 0 2rem 0;
 }
 
 /* .work_done_numbers::after {
@@ -1204,6 +1217,7 @@ nav {
 
 .what_we_do {
   width: 100%;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1317,6 +1331,7 @@ nav {
   mix-blend-mode: difference; */
   z-index: 2;
   position: relative;
+  /* overflow: hidden; */
 }
 
 .consultation_section_bg::before {
@@ -1366,6 +1381,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .consultaion_content h2 {
@@ -1377,6 +1393,8 @@ nav {
   font-family: 'light';
   transition: all ease .5s;
 }
+
+
 
 .btn_format {
   color: var(--black);
@@ -3904,6 +3922,10 @@ footer::after {
     width: 30%;
   }
 
+  .about_section_bg {
+    height: 80vh;
+  }
+
   .cards_container {
     flex-wrap: wrap;
     justify-content: start;
@@ -3956,6 +3978,11 @@ footer::after {
     width: 30%;
   }
 
+
+  .about_section_bg {
+    height: 80vh;
+  }
+
   .cards_container {
     flex-wrap: wrap;
     justify-content: start;
@@ -4002,6 +4029,10 @@ footer::after {
     z-index: -1;
   }
 
+  .about_section_bg {
+    height: 80vh;
+  }
+
 }
 
 @media screen and (min-width: 1416px) and (max-width: 1500px) {
@@ -4012,6 +4043,10 @@ footer::after {
 
   .banner_content1 {
     width: 25%;
+  }
+
+  .about_section_bg {
+    height: 80vh;
   }
 
   .card {
@@ -4035,8 +4070,13 @@ footer::after {
 }
 
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
+
   .nav_links > ul > li {
     padding: 0.5rem 0.3rem;
+  }
+
+  .about_section_bg {
+    height: 80vh;
   }
 
   .card {
@@ -4075,10 +4115,15 @@ footer::after {
 }
 
 @media screen and (min-width: 1601px) and (max-width: 1650px) {
+
   .nav_links > ul > li {
     padding: 0.5rem 0.3rem;
   }
 
+  .about_section_bg {
+    height: 80vh;
+  }
+  
   .card {
     min-width: 300px;
     max-width: 30%;
@@ -4179,8 +4224,12 @@ footer::after {
   
 }
 
-@media screen and (min-width: 1800px) and (max-width: 2600px) {
+@media screen and (min-width: 2500px) {
+
+  .consultation_section_bg {
+    height: 50vh;
+  }
    .testimonial_section:after {
-     height: 15%;
-   } 
+     height: 25%;
+   }
 }
