@@ -55,13 +55,26 @@ const WhyUsSection = () => {
           <div className="cards_container">
           {cards.map((card, idx)=> (
             <motion.div 
-            className="card" 
-            id='card'
-            key={idx}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, delay: 0.1 + idx * 0.15, ease: "easeOut" }}
+              className="card" 
+              id='card'
+              key={idx}
+              initial={
+                window.innerWidth <= 640
+                  ? { opacity: 1, y: 0 }
+                  : { opacity: 0, y: 40 }
+              }
+              animate={
+                window.innerWidth <= 640
+                  ? { opacity: 1, y: 0 }
+                  : undefined
+              }
+              whileInView={
+                window.innerWidth > 640
+                  ? { opacity: 1, y: 0 }
+                  : undefined
+              }
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
             >
               <img src={card.icon} alt="icon_imgs" className='card_icon' />
               <div className="card_content">

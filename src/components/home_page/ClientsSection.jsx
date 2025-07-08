@@ -77,7 +77,7 @@ const ClientsSection = () => {
   return (
     <>
         <section className='wrapper'>
-            <div className="banner_bottom" style={{margin: "2rem auto 1rem auto"}}></div>
+            <div className="banner_bottom" style={{margin: "1rem auto 1rem auto"}}></div>
             <h2 className='our_clients_heading'>Our Clients</h2>
             <div className="clients_section">
                 <div className="logo_main_first_box">
