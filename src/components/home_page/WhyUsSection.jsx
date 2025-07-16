@@ -41,7 +41,7 @@ const WhyUsSection = () => {
     <>
       <div className="why_us_section_bg">
         <section className='wrapper'>
-          <div className="banner_bottom" style={{margin: "1rem auto 1rem auto"}}></div>
+          <div className="banner_bottom" style={{margin: "0.2rem auto 1rem auto"}}></div>
           <div className="why_us_heading">
             <motion.h2
               initial="hidden"

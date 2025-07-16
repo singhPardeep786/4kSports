@@ -97,7 +97,7 @@ const AboutSection = () => {
     <>
       <div className="about_section_bg overflow-hidden">
         <section className='wrapper overflow-hidden'>
-        <section className=" banner_bottom" style={{margin:"0 0 2rem 0"}}></section>
+        <section className=" banner_bottom" style={{margin:"0.2rem 0 2rem 0"}}></section>
           <div className="about_section flex flex-col justify-center">
             <div className="about_content_box1 flex items-start justify-center flex-col gap-5">
             <motion.h2
@@ -123,7 +123,7 @@ const AboutSection = () => {
           <Counter className='counter' end={100} suffix="%" label="Client Satisfaction" startCount={inView} duration={2} />
         </div>
       </div>
-      <div className="wrapper about_section_wrapper" style={{zIndex:"9", position:"absolute", bottom: 0, width:"95%"}}></div>
+      <div className="wrapper about_section_wrapper" style={{zIndex:"9", position:"absolute", bottom: "-10px", width:"95%"}}></div>
         </section>
       </div>
     </>

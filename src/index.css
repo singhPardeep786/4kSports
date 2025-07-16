@@ -780,7 +780,7 @@ nav {
   z-index: 2;
   position: relative;
   /* margin: 1.2rem 0 2rem 0; */
-  padding: 2rem 0 0 0;
+  padding: 1rem 0 ;
 }
 
 .about_section_wrapper {
@@ -842,7 +842,7 @@ nav {
 
 .about_content_box1 {
   width: 35%;
-  height: 500px;
+  height: 476px;
   position: relative;
   color: var(--white);
   margin-top: -4.5rem;
@@ -866,6 +866,7 @@ nav {
 .work_done_numbers_box {
   width: 100%;
   min-height: 150px;
+  margin-top: 1.5rem;
 }
 
 .work_done_numbers {
@@ -4295,9 +4296,9 @@ footer::after {
     padding: 0.5rem 0.3rem;
   }
 
-  .about_section_bg {
+  /* .about_section_bg {
     height: 80vh;
-  }
+  } */
   
   .card {
     min-width: 300px;
