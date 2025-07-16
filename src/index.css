@@ -1072,10 +1072,15 @@ nav {
   gap: 1rem;
   /* flex-wrap: nowrap; */
   margin-top: 1.5rem;
+  padding-bottom: 1rem;
   /* overflow-x: auto;
   overflow-y: hidden; */
   justify-content: center;
   align-items: center;
+}
+
+.cards_container::-webkit-scrollbar {
+  height: 10px;
 }
 
 .card {
@@ -4156,7 +4161,7 @@ footer::after {
 
 
   .about_section_bg {
-    height: 80vh;
+    height: 78vh;
   }
 
   .cards_container {
@@ -4177,6 +4182,29 @@ footer::after {
     background-position-x: -10rem;
     background-position-y: 15rem;
     z-index: -1;
+  }
+
+  .case_studies_box_content .content_headings h3 {
+    font-size: 2.5rem;
+  }
+
+  .case_studies_box_content .content_headings h3:nth-child(2) {
+    margin-top: -1.5rem;
+    font-size: 1.7rem;
+  }
+
+  .case_studies_box:hover .content_headings h3 {
+    transform: translateY(190%);
+  }
+
+  .case_studies_box:hover .content_headings h3:nth-child(2) {
+    margin-top: -0rem;
+    transform: translateY(190%);
+  }
+  
+  .case_studies_box_content p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
   }
 
 }
@@ -4206,7 +4234,30 @@ footer::after {
   }
 
   .about_section_bg {
-    height: 80vh;
+    height: 78vh;
+  }
+
+  .case_studies_box_content .content_headings h3 {
+    font-size: 2.5rem;
+  }
+
+  .case_studies_box_content .content_headings h3:nth-child(2) {
+    margin-top: -1.5rem;
+    font-size: 1.7rem;
+  }
+
+  .case_studies_box:hover .content_headings h3 {
+    transform: translateY(190%);
+  }
+
+  .case_studies_box:hover .content_headings h3:nth-child(2) {
+    margin-top: -0rem;
+    transform: translateY(190%);
+  }
+  
+  .case_studies_box_content p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
   }
 
 }
@@ -4222,7 +4273,7 @@ footer::after {
   }
 
   .about_section_bg {
-    height: 80vh;
+    height: 78vh;
   }
 
   .card {
@@ -4242,6 +4293,29 @@ footer::after {
     background-position-y: 15rem;
     z-index: -1;
   }
+
+  .case_studies_box_content .content_headings h3 {
+    font-size: 2.5rem;
+  }
+
+  .case_studies_box_content .content_headings h3:nth-child(2) {
+    margin-top: -1.5rem;
+    font-size: 1.7rem;
+  }
+
+  .case_studies_box:hover .content_headings h3 {
+    transform: translateY(190%);
+  }
+
+  .case_studies_box:hover .content_headings h3:nth-child(2) {
+    margin-top: -0rem;
+    transform: translateY(190%);
+  }
+  
+  .case_studies_box_content p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
   
 }
 
@@ -4252,7 +4326,7 @@ footer::after {
   }
 
   .about_section_bg {
-    height: 80vh;
+    height: 78vh;
   }
 
   .card {
@@ -4295,10 +4369,6 @@ footer::after {
   .nav_links > ul > li {
     padding: 0.5rem 0.3rem;
   }
-
-  /* .about_section_bg {
-    height: 80vh;
-  } */
   
   .card {
     min-width: 300px;
