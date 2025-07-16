@@ -69,13 +69,13 @@ html, body {
 *::-webkit-scrollbar {
   /* display: none; */
   background-color: var(--darkgreen);
-  width: 7px;
+  width: 5px;
   border-radius: 50px;
 }
 
 *::-webkit-scrollbar-thumb {
   /* display: none; */
-  width: 7px;
+  width: 5px;
   background-color: var(--white);
   border-radius: 50px;
 }
